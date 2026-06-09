@@ -6,6 +6,8 @@ import StudioLights from './components/three/StudioLights'
 import gsap from 'gsap';
 import { ScrollTrigger} from 'gsap/all';
 import Showcase from './components/Showcase'
+import Highlights from './components/Highlights'
+ 
 
 gsap.registerPlugin(ScrollTrigger)
 const App = () => {
@@ -15,6 +17,7 @@ const App = () => {
     <Hero />
     <ProductViewer />
     <Showcase />
+    <Highlights />
    </main>
   )
 }
